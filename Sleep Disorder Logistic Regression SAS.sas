@@ -1,4 +1,4 @@
-%let path=C:\Users\Brandon\Documents\Stats Courses\2016-04\Bsta 6651\Project\;
+%let path=C:\Users\User\Project\;
 libname acq xport "&path.acq_h.xpt" access=readonly; proc copy inlib=acq outlib=work; run;
 libname alq xport "&path.alq_h.xpt" access=readonly; proc copy inlib=alq outlib=work; run;
 libname bpq xport "&path.bpq_h.xpt" access=readonly; proc copy inlib=bpq outlib=work; run;
